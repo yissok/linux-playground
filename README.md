@@ -1,5 +1,6 @@
 # INSTALL ARCH FROM SCRATCH
 
+```console
 f10 boot manager
 connect ethernet
 cfdisk
@@ -55,3 +56,4 @@ grub-mkconfig -o /boot/grub/grub.cfg
 exit
 umount -a
 reboot
+```
