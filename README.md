@@ -15,7 +15,7 @@ lsblk
 /dev/sda3 = /dev/sda7
 
 FORMAT
-mkfs,ext4 /dev/sda7
+mkfs.ext4 /dev/sda7
 mkfs.fat -F 32 /dev/sda5
 mkswap /dev/sda6
 
@@ -49,7 +49,7 @@ passwd
 useradd -m -G wheel -s /bin/bash andrea
 passwd andrea
 EDITOR=nano visudo
-	uncomment line down in file
+	uncomment line down in file: "#%wheel ALL=(ALL:ALL) ALL" to allow andrea (part of wheel) to run sudo
 systemctl enable NetworkManager
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
