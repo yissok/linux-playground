@@ -14,7 +14,7 @@ Categories=GNOME;GTK;
 ```
 
 `a.sh` file
-```
+```console
 #!/bin/bash
 #winclo=$(xdotool search --name Console)
 #echo $winclo
