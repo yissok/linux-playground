@@ -1,3 +1,44 @@
+# GNOME DESKTOP CUSTOM ALIAS ICONS ACTIONS
+
+desktop entry `.desktop` file
+```
+[Desktop Entry]
+Name=a
+GenericName=a
+Comment=a
+Exec=sh Desktop/a.sh
+Terminal=true
+Type=Application
+Icon=a
+Categories=GNOME;GTK;
+```
+
+`a.sh` file
+```
+#!/bin/bash
+#winclo=$(xdotool search --name Console)
+#echo $winclo
+#xdotool windowunmap $winclo
+kgx
+sleep .1s
+xdotool key alt+quoteleft
+sleep .2s
+xdotool key --delay 50 alt+space Up
+xdotool key enter
+##sleep 0.2s
+##xdotool key t i t l space a s d f enter
+##sleep 0.2s
+##xdotool key k g x enter
+##xdotool windowminimize $winclo
+##xdotool key --window $winclo ctrl+shift+W
+#xdotool windowkill $(xdotool search --name asdf)
+##################
+#xdotool key Super k g x enter e c h o
+#xdotool windowkill getwindowfocus
+#xdotool key --window $(xdotool  getwindowfocus) ctrl+shift+w
+```
+
+
 # INSTALL ARCH FROM SCRATCH
 
 ```console
