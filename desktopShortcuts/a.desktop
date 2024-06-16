@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=a
+GenericName=a
+Comment=a
+Exec=sh Documents/GIT/linux-playground/desktopShortcuts/openNodeProjInVim.sh
+Terminal=true
+Inherits=breeze
+Type=Application
+Icon=green-folder-code
+Categories=GNOME;GTK;
